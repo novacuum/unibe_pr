@@ -8,10 +8,9 @@ class PriorityList:
 
     def put(self, item):
         size = len(self.queue)
-        for i in range(size-1, -1, -1):
+        for i in range(0, size, 1):
             if self.queue[i] > item:
                 self.queue[i], item = item, self.queue[i]
-                break
 
         if size < self.maxsize:
             self.queue.append(item)

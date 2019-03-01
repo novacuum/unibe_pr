@@ -1,0 +1,13 @@
+@1 success: 14028	error: 973	error rate: 0.0648623425104993
+@3 success: 14272	error: 729	error rate: 0.0485967602159856
+@5 success: 14335	error: 666	error rate: 0.04439704019732018
+@10 success: 14334	error: 667	error rate: 0.04446370241983868
+@15 success: 14282	error: 719	error rate: 0.04793013799080061
+
+
+
+@1 success: 13819	error: 1182	error rate: 0.07879474701686555
+@3 success: 14117	error: 884	error rate: 0.05892940470635291
+@5 success: 14216	error: 785	error rate: 0.05232984467702153
+@10 success: 14245	error: 756	error rate: 0.050396640223985066
+@15 success: 14192	error: 809	error rate: 0.0539297380174655
