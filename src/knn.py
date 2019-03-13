@@ -7,7 +7,8 @@ train_set = Item.from_csv('../assets/knn/train.csv')
 test_set = Item.from_csv('../assets/knn/test.csv')
 kList = [1, 3, 5, 10, 15]
 
-knn = KNNAlgo('manhattan')
+knn = KNNAlgo()
+#knn = KNNAlgo('manhattan')
 knn.set_ground_truth(train_set)
 knn.condense()
 

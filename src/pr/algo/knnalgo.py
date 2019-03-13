@@ -7,7 +7,7 @@ from pr.collection.prioritylist import PriorityList
 
 
 class KNNAlgo:
-    def __init__(self, distance: str = 'euclidian'):
+    def __init__(self, distance: str = 'euclidean'):
         self.ground_truth = None
         self.distance = distance
 
@@ -25,7 +25,7 @@ class KNNAlgo:
 
         item.distance = result.queue
 
-    def classify(self, item, k:int = 1):
+    def classify(self, item, k: int = 1):
         result = PriorityList(k)
         distance = self.__getattribute__(self.distance)
 
@@ -54,11 +54,13 @@ class KNNAlgo:
         return grouped.most_common()[0][0]
 
     def condense(self):
-        if os.path.isfile('../temp/knn/condensed_train_set.csv'):
-            self.ground_truth = Item.from_csv('../temp/knn/condensed_train_set.csv')
+        path = '../temp/knn/{}_condensed_train_set.csv'.format(self.distance)
+        
+        if os.path.isfile(path):
+            self.ground_truth = Item.from_csv(path)
         else:
             self._condense()
-            Item.to_csv(self.ground_truth, '../temp/knn/condensed_train_set.csv')
+            Item.to_csv(self.ground_truth, path)
 
     def _condense(self):
         appended = True
@@ -87,7 +89,7 @@ class KNNAlgo:
         return self
 
     @staticmethod
-    def euclidian(source_image: Item, target_image: Item):
+    def euclidean(source_image: Item, target_image: Item):
         return numpy.sqrt(numpy.sum(numpy.square(numpy.subtract(source_image.image, target_image.image))))
 
     @staticmethod
