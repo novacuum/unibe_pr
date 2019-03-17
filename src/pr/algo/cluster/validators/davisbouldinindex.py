@@ -8,7 +8,7 @@ class DavisBouldinIndex(Validator):
 
     def compute(self, clusters):
         centers = self.clusterer.centers
-        diameters = numpy.empty(self.clusterer.k, dtype=list)
+        diameters = numpy.empty(self.clusterer.k, dtype=float)
 
         for k in self.clusterer.k_iter:
             cluster = clusters[k]
