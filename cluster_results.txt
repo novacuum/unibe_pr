@@ -1,0 +1,89 @@
+c-index was tooo slow (needed way to much time for computing on a older surface pro)
+Dunn-index is parallelized for get any result in a use full time
+
+This handwriting requires many clusters to obtain a unique cluster (one symbol)
+
+----- result for k=5
+clustering needed 39 iterations
+Result for Davis Bouldin Index is 3.14839988711064
+Result for Dunn-Index is 0.1482098051603028
+cluster with labels Counter({1: 2984, 8: 605, 2: 572, 3: 521, 5: 441, 6: 290, 7: 228, 4: 130, 9: 108, 0: 10})
+cluster with labels Counter({4: 1529, 9: 1405, 7: 1076, 8: 210, 5: 206, 3: 191, 2: 79, 6: 33, 0: 26, 1: 7})
+cluster with labels Counter({0: 2195, 3: 1842, 5: 1184, 8: 687, 2: 202, 6: 77, 9: 34, 7: 7, 1: 1})
+cluster with labels Counter({7: 1489, 9: 1091, 8: 972, 4: 877, 5: 527, 3: 164, 2: 72, 0: 71, 1: 8, 6: 3})
+cluster with labels Counter({6: 2277, 2: 1797, 0: 323, 4: 126, 8: 115, 3: 89, 5: 78, 9: 24, 7: 11, 1: 5})
+----- result for k=7
+clustering needed 58 iterations
+Result for Davis Bouldin Index is 2.950935324793433
+Result for Dunn-Index is 0.16151559911916497
+cluster with labels Counter({3: 1859, 5: 857, 8: 675, 2: 258, 0: 146, 9: 34, 6: 32, 1: 5, 7: 2})
+cluster with labels Counter({0: 2094, 2: 36, 6: 36, 5: 28, 9: 20, 3: 19, 8: 16, 7: 8, 4: 3})
+cluster with labels Counter({4: 1472, 9: 1334, 7: 859, 5: 154, 8: 84, 3: 80, 2: 74, 6: 28, 0: 18, 1: 7})
+cluster with labels Counter({8: 1391, 5: 834, 3: 536, 0: 272, 2: 150, 6: 97, 9: 34, 7: 23, 1: 22, 4: 22})
+cluster with labels Counter({6: 2243, 2: 1777, 4: 127, 0: 82, 3: 69, 5: 46, 8: 39, 9: 18, 7: 12, 1: 6})
+cluster with labels Counter({1: 2960, 5: 393, 2: 388, 8: 274, 6: 242, 7: 232, 3: 227, 4: 151, 9: 121, 0: 10})
+cluster with labels Counter({7: 1675, 9: 1101, 4: 887, 5: 124, 8: 110, 2: 39, 3: 17, 1: 5, 0: 3, 6: 2})
+----- result for k=9
+clustering needed 43 iterations
+Result for Davis Bouldin Index is 2.8140568832472628
+Result for Dunn-Index is 0.1448471307302
+cluster with labels Counter({0: 788, 5: 554, 6: 322, 3: 275, 8: 99, 2: 67, 4: 14, 9: 8, 7: 2})
+cluster with labels Counter({7: 1823, 9: 276, 2: 39, 3: 15, 4: 13, 8: 9, 5: 8, 1: 2, 0: 1})
+cluster with labels Counter({3: 2001, 5: 967, 8: 889, 2: 166, 0: 109, 9: 45, 6: 14, 1: 7, 7: 2})
+cluster with labels Counter({2: 1906, 3: 77, 8: 46, 7: 24, 1: 23, 6: 23, 4: 17, 0: 3, 9: 2, 5: 1})
+cluster with labels Counter({6: 2017, 2: 78, 0: 59, 4: 56, 5: 32, 8: 25, 3: 18, 9: 7, 1: 6, 7: 4})
+cluster with labels Counter({4: 1539, 9: 1284, 7: 536, 5: 130, 2: 80, 3: 71, 8: 65, 6: 32, 0: 14, 1: 4})
+cluster with labels Counter({8: 1161, 4: 919, 9: 913, 5: 378, 7: 187, 3: 125, 2: 33, 0: 14, 1: 12, 6: 5})
+cluster with labels Counter({0: 1630, 6: 39, 5: 24, 3: 18, 9: 17, 8: 14, 2: 11, 7: 7, 4: 3})
+cluster with labels Counter({1: 2951, 2: 342, 5: 342, 8: 281, 6: 228, 7: 226, 3: 207, 9: 110, 4: 101, 0: 7})
+----- result for k=10
+clustering needed 85 iterations
+Result for Davis Bouldin Index is 2.8065640435446766
+Result for Dunn-Index is 0.15203507269212946
+cluster with labels Counter({3: 1863, 5: 826, 8: 516, 2: 155, 0: 93, 9: 33, 6: 11, 1: 4, 7: 2})
+cluster with labels Counter({6: 1347, 5: 174, 0: 106, 4: 88, 2: 67, 3: 55, 8: 27, 1: 10, 9: 6, 7: 2})
+cluster with labels Counter({2: 1887, 3: 85, 7: 28, 8: 24, 4: 19, 1: 18, 0: 5, 6: 4, 9: 2, 5: 1})
+cluster with labels Counter({4: 1444, 9: 1346, 7: 868, 5: 146, 2: 91, 3: 84, 8: 79, 6: 19, 0: 17, 1: 7})
+cluster with labels Counter({6: 1156, 4: 83, 0: 40, 2: 36, 8: 20, 9: 16, 5: 13, 3: 5, 7: 4, 1: 2})
+cluster with labels Counter({8: 1589, 5: 614, 3: 451, 2: 69, 9: 36, 0: 32, 4: 14, 1: 13, 7: 12, 6: 5})
+cluster with labels Counter({7: 1658, 9: 1084, 4: 868, 5: 150, 8: 75, 2: 32, 3: 17, 0: 6, 1: 5, 6: 2})
+cluster with labels Counter({1: 2946, 5: 374, 2: 328, 8: 230, 7: 227, 3: 180, 4: 138, 9: 115, 6: 68, 0: 4})
+cluster with labels Counter({0: 1255, 5: 27, 6: 21, 9: 15, 8: 13, 3: 11, 2: 8, 7: 5, 4: 2})
+cluster with labels Counter({0: 1067, 5: 111, 3: 56, 2: 49, 6: 47, 8: 16, 9: 9, 4: 6, 7: 5})
+----- result for k=12
+clustering needed 82 iterations
+Result for Davis Bouldin Index is 2.8474714053916395
+Result for Dunn-Index is 0.0862924884157686
+cluster with labels Counter({6: 1821, 2: 60, 0: 55, 4: 47, 5: 22, 8: 16, 3: 12, 7: 4, 9: 4, 1: 3})
+cluster with labels Counter({7: 1226, 9: 752, 4: 722, 5: 69, 8: 61, 2: 21, 3: 11, 1: 4, 0: 2, 6: 2})
+cluster with labels Counter({4: 995, 9: 685, 7: 278, 2: 86, 5: 63, 6: 45, 3: 24, 8: 16, 0: 14, 1: 1})
+cluster with labels Counter({2: 1889, 3: 42, 6: 22, 7: 21, 8: 18, 4: 7, 0: 3, 5: 2, 9: 2, 1: 1})
+cluster with labels Counter({7: 1052, 9: 1035, 4: 688, 5: 110, 3: 56, 8: 55, 2: 19, 0: 4, 1: 3})
+cluster with labels Counter({3: 1324, 5: 399, 8: 108, 0: 84, 2: 77, 9: 20, 6: 12, 1: 6, 7: 1})
+cluster with labels Counter({1: 1664, 2: 147, 3: 142, 6: 127, 8: 101, 7: 94, 9: 61, 5: 61, 4: 46})
+cluster with labels Counter({3: 890, 5: 622, 8: 482, 0: 115, 2: 87, 9: 23, 6: 14, 7: 3, 1: 2, 4: 1})
+cluster with labels Counter({0: 1805, 6: 26, 5: 16, 2: 15, 9: 13, 3: 12, 8: 10, 7: 6, 4: 1})
+cluster with labels Counter({5: 651, 6: 592, 0: 518, 8: 127, 2: 85, 3: 75, 4: 66, 9: 10, 1: 2, 7: 1})
+cluster with labels Counter({8: 1514, 5: 319, 3: 205, 2: 64, 0: 24, 9: 20, 7: 9, 1: 4, 4: 4, 6: 4})
+cluster with labels Counter({1: 1315, 2: 172, 7: 116, 5: 102, 4: 85, 8: 81, 9: 37, 6: 15, 3: 14, 0: 1})
+----- result for k=15
+clustering needed 74 iterations
+Result for Davis Bouldin Index is 2.8440971307443923
+Result for Dunn-Index is 0.08732117526706386
+cluster with labels Counter({8: 1492, 5: 316, 3: 205, 2: 54, 9: 19, 0: 18, 7: 7, 6: 4, 1: 3, 4: 2})
+cluster with labels Counter({3: 1301, 5: 410, 8: 103, 2: 44, 0: 42, 9: 19, 1: 3, 7: 2, 6: 1})
+cluster with labels Counter({6: 1372, 0: 100, 4: 35, 5: 34, 2: 26, 3: 11, 8: 10, 1: 5, 9: 3})
+cluster with labels Counter({2: 1003, 3: 48, 8: 19, 4: 19, 7: 14, 0: 6, 9: 4, 6: 2, 5: 1})
+cluster with labels Counter({7: 1240, 9: 717, 4: 601, 8: 43, 2: 23, 5: 13, 3: 6, 1: 4, 0: 2, 6: 1})
+cluster with labels Counter({0: 1086, 6: 34, 5: 25, 2: 18, 8: 11, 3: 11, 9: 7, 4: 3, 7: 2})
+cluster with labels Counter({1: 1321, 7: 98, 2: 73, 8: 43, 4: 34, 9: 23, 6: 12, 3: 12, 5: 10})
+cluster with labels Counter({9: 1016, 7: 1015, 4: 679, 5: 83, 3: 51, 8: 48, 2: 14, 0: 3, 6: 3, 1: 3})
+cluster with labels Counter({3: 913, 5: 643, 8: 479, 0: 96, 2: 34, 9: 24, 6: 13, 7: 3, 1: 2, 4: 1})
+cluster with labels Counter({0: 1115, 6: 19, 9: 12, 8: 12, 5: 10, 3: 9, 2: 4, 7: 4, 4: 2})
+cluster with labels Counter({1: 1637, 3: 130, 2: 94, 7: 90, 8: 87, 9: 59, 6: 50, 5: 42, 4: 40})
+cluster with labels Counter({2: 1181, 3: 26, 8: 10, 6: 9, 1: 8, 7: 5, 5: 1})
+cluster with labels Counter({4: 988, 9: 712, 7: 298, 2: 71, 5: 60, 3: 21, 6: 20, 8: 18, 0: 9, 1: 1})
+cluster with labels Counter({5: 781, 4: 224, 8: 205, 6: 137, 0: 111, 2: 64, 3: 59, 9: 42, 7: 30, 1: 17})
+cluster with labels Counter({6: 1003, 0: 37, 4: 34, 2: 19, 8: 9, 5: 7, 9: 5, 3: 4, 7: 3, 1: 1})
+
+Process finished with exit code 0
