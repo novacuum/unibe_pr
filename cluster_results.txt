@@ -1,5 +1,5 @@
 c-index was tooo slow (needed way to much time for computing on a older surface pro)
-Dunn-index is parallelized for get any result in a use full time
+Dunn-index is parallelized for get any result in a use full time (additional optimization -> pre compute distances per set (train_set))
 
 This handwriting requires many clusters to obtain a unique cluster (one symbol)
 
